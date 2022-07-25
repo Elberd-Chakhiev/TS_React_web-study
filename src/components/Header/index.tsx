@@ -5,6 +5,7 @@ const Header: React.FC = () => {
     const [menuActive, setMenuActive] = React.useState<boolean>(false)
 
 
+
     const menu: {id: number, title: string}[] = [
         {id: 0, title: 'item'},
         {id: 1, title: 'item'}, 
@@ -12,6 +13,7 @@ const Header: React.FC = () => {
         {id: 3, title: 'item'}, 
         {id: 4, title: 'item'}, 
         {id: 5, title: 'item'}, 
+        {id: 6, title: 'item-delete'},
     ]
 
     return(
