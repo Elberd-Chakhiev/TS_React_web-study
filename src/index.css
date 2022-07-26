@@ -8,8 +8,16 @@ html {
 } */
 
 .container {
-  @apply max-w-[1200px] mx-auto;
+  @apply max-w-[1200px] px-3 mx-auto;
 }
 .App {
   @apply min-h-screen overflow-x-hidden overflow-y-auto;
+}
+.text-transparent {
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+}
+
+a.active {
+  @apply border-b-2 border-secondary--theme;
 }
